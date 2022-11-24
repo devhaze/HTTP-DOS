@@ -7,6 +7,7 @@ npm i randomstring
 node jsfile [METHOD] [TARGET] [PROXIES] [DURATION] [RPC] [THREADS]
 ---------------------------------------------------------------------------
 node http1.js GET "https://target.com" http.txt 120 64 1
+---------------------------------------------------------------------------
 node http2.js GET "https://target.com" http.txt 120 64 1
 ---------------------------------------------------------------------------
 node jsfile [TARGET] [DURATION] [THREADS] [RPC] [PROXIES]
