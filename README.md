@@ -12,5 +12,5 @@ node http2.js GET "https://target.com" http.txt 120 64 1
 ---------------------------------------------------------------------------
 node jsfile [TARGET] [DURATION] [THREADS] [RPC] [PROXIES]
 ---------------------------------------------------------------------------
-node http-tls.js "https://target.com" 120 1 RPC http.txt
+node http3.js "https://target.com" 120 1 RPC http.txt
 ---------------------------------------------------------------------------
